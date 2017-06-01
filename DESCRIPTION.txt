@@ -1,1 +1,6 @@
-R-Package
+Package: unit_converter
+Title: This package implements functions to convert between units
+Version: 0.1
+Authors@R: person(“Antonio”, “Minondo”, email=“aminondo@nd.edu”,role= c(“aut”, “cre”))
+Description:
+Imports:
