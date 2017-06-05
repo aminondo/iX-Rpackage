@@ -9,5 +9,5 @@
 #' @examples
 #' test(4)=  this is a test if 4 works
 test = function(n){
-  print("this is a test if %s works\n")
+  print("a test if %s works\n")
 }
