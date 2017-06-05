@@ -1,3 +1,15 @@
+#' Length Function
+#'
+#' @param n is the value of the initial lengeth you want to convert
+#' @param from the units of the initial values, inch= inches, cm = centemeters, m = meter, km = kilometer, mm = milimeter, mile = mile, yd = yards, ft = foot, microm = micrometer, nm = nanometer
+#' @param to the units you want to convert to
+#'
+#' @return the value of the conversion in the units of "to"
+#' @export
+#'
+#' @examples length_conv(5,"yd","mile"),
+#' length_conv(23, "mile", "nm")
+
 length_conv <- function(n, from, to) {
   if(from=="inch"){
     if(to=="cm")
@@ -370,7 +382,4 @@ length_conv <- function(n, from, to) {
       return(n*.001)
   }
 }
-#example
-length_conv(5,"yd","mile")
 
-#inch= inches, cm = centemeters, m = meter, km = kilometer, mm = milimeter, mile = mile, yd = yards, ft = foot, microm = micrometer, nm = nanometer
