@@ -32,94 +32,107 @@ timeConvert = function(n, from, to){
     }
   #From minutes
   if (from == "minutes"){
-    (to == "seconds")
+    if(to == "seconds")
     n*60
     }
     if (from == "minutes"){
-      ( to == "hours")
+     if ( to == "hours")
       n/60
       }
     if (from == "minutes"){
-      (to == "days")
+      if(to == "days")
       n/60/24
       }
     if (from == "minutes") {
-      (to == "weeks")
+      if(to == "weeks")
       n/60/24/7
       }
     if (from == "minutes"){
-      ( to == "years"){
+      if( to == "years")
       n/60/24/7/52
     }
       #from hours
     if (from == "hours"){
-      (to == "seconds"){
+      if(to == "seconds"){
         n*60*60
     }
     if (from == "hours"){
-      ( to == "minutes"){
+      if( to == "minutes"){
       n*60
     }
     if (from == "hours") {
-      (to == "days")
+      if(to == "days")
       n/24
     }
     if (from == "hours"){
-      ( to == "weeks")
+      if( to == "weeks")
       n/24/7
     }
     if (from == "hours"){
-      (to == "years")
+      if(to == "years")
       n/24/7/52
     }
       #from days
       if (from == "days"){
-        (to == "seconds")
+        if(to == "seconds")
        n*24*60*60
       }
     if (from == "days"){
-      (to == "minutes")
+      if(to == "minutes")
       n*24*60
     }
     if (from == "days"){
-      (to == "weeks")
+      if(to == "weeks")
       n/7
     }
     if (from == "days"){
-      (to == "years")
+      if(to == "years")
       n/7/52
     }
       #from weeks
-      else if (from == "weeks"){
-        (to == "seconds")
+      if (from == "weeks"){
+        if(to == "seconds")
         n*7*24*60*60
       }
-    else if (from == "weeks"){
-      (to == "minutes")
+    if (from == "weeks"){
+      if(to == "minutes")
       n*7*24*60
     }
-    if (from == "weeks") (to == "hours")
+    if (from == "weeks") {
+      if(to == "hours")
       n*7*24
-    else if (from == "weeks" && to == "days")
+    }
+    if (from == "weeks"){
+      if(to == "days")
       n*7
-    else if (from == "weeks" && to == "years")
+    }
+    if (from == "weeks")
+      if (to == "years"){
       n/52
+      }
 #from years
-      else if (from == "years" && to == "seconds"){
+      if (from == "years"){
+        if(to == "seconds")
         n*60*60*24*7*52}
-    else if (from == "years" && to == "minutes"){
+
+    if (from == "years"){
+      if( to == "minutes")
       n*60*60*52*7
     }
-    else if (from == "years" && to == "hours"){
+    if (from == "years")
+      if(to == "hours"){
       n*52*7*60
     }
-    else if (from == "years" && to == "days"){
+    if (from == "years"){
+      if( to == "days")
       n*52*7
     }
-    else (from == "years" && to == "weeks"){
+    if(from == "years")
+      if(to == "weeks"){
       n*52
     }
       return (n)
     }
 
-  timeConvert(5, days, weeks)
+ (timeConvert(5, "days", "weeks")
+

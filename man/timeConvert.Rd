@@ -13,7 +13,7 @@ test(n)
 #int
 }
 \description{
-Function that cal
+Function that converts numerical values from and to seconds, minutes, hours, days, weeks, months, years.
 }
 \examples{
 timeConvert(5,minutes, hours) =  this is a test for the timeConvert function
