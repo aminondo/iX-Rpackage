@@ -11,25 +11,25 @@
 timeConvert = function(n, from, to){
   if (from == "seconds"){
     if (to == "minutes")
-    n*60
+      n*60
   }
     if (from == "seconds"){
       if (to == "hours")
-      n/60/60
+        n/60/60
     }
       if (from == "seconds"){
        if (to == "days")
-      n/60/60/24
+        n/60/60/24
     }
       if (from == "seconds"){
         if(to == "weeks")
-        n/60/60/24/7
+          n/60/60/24/7
         }
         if (from == "seconds"){
           if ( to == "years")
-          n/60/60/24/7/52
+            n/60/60/24/7/52
 
-    }
+        }
   #From minutes
   if (from == "minutes"){
     if(to == "seconds")
@@ -53,7 +53,7 @@ timeConvert = function(n, from, to){
     }
       #from hours
     if (from == "hours"){
-      if(to == "seconds"){
+      if(to == "seconds")
         n*60*60
     }
     if (from == "hours"){
@@ -128,11 +128,11 @@ timeConvert = function(n, from, to){
       n*52*7
     }
     if(from == "years")
-      if(to == "weeks"){
+      if(to == "weeks")
       n*52
     }
       return (n)
     }
 
- (timeConvert(5, "days", "weeks")
+# (timeConvert(5, "days", "weeks")
 
