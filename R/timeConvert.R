@@ -1,9 +1,11 @@
 
 #' timeConvert func
 #'
-#' @param n #text
+#' @param n #quantity to change
+#' @param from #unit quantity
+#' @param to #unit desired
 #'
-#' @return #string
+#' @return #new quantity in right units
 #' @export
 #'
 #' @examples
