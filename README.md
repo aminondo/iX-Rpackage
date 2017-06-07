@@ -8,6 +8,8 @@ This package implements unit conversion for time, length, and weight/mass.
 <h3> Time Conversion </h3>
 
 <h3> Length Conversion </h3>
+
+This function converts between units of length. It can convert between the metric and imperial systems.  The only units that are available for conversion are: "inch" "cm" "m" "km" "mm" "microm" "nm" "ft" "yd" "mile"
   
 <h3> Weight/Mass Conversion: weight_conv() </h3>
 
@@ -31,3 +33,6 @@ For know the only units that are available for conversion are: "mg" "cg" "dg" "g
   
   weight_conv(60, "kg", "g")
   
+  length_conv(23, "mile", "nm")
+  
+  length_conv(14, "m", "ft")
