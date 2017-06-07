@@ -18,16 +18,12 @@ For know the only units that are available for conversion are: "mg" "cg" "dg" "g
 Usage:
 
   n = quantity to change,
-  
   from = unit of quantity to change,
-  
   to = desired unit to be converted to.
-  
   weight_conv(n, from, to)
   
 Examples of usage:
 
   weight_conv(10, "mg", "oz")
-  
   weight_conv(60, "kg", "g")
   
