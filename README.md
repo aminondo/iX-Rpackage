@@ -5,17 +5,17 @@
 
 This package implements unit conversion for time, length, and weight/mass.
 
-<h6> Time Conversion </h6>
+<h3> Time Conversion </h3>
 
-<h6> Length Conversion </h6>
+<h3> Length Conversion </h3>
   
-<h6> Weight/Mass Conversion: weight_conv() </h6>
+<h3> Weight/Mass Conversion: weight_conv() </h3>
 
 
 This function converts between mass/weight units. It can convert between the metric and imperial systems.
 For know the only units that are available for conversion are: "mg" "cg" "dg" "g" "dag" "hg" "kg" "oz" "lb" "T"
 
-Usage:
+<h6>Usage:</h6>
 
   n = quantity to change,
   
@@ -25,7 +25,7 @@ Usage:
   
   weight_conv(n, from, to)
   
-Examples of usage:
+<h6>Examples of usage:</h6>
 
   weight_conv(10, "mg", "oz")
   
